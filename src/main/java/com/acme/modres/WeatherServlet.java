@@ -1,7 +1,6 @@
 package com.acme.modres;
 
 
-import com.acme.modres.db.ModResortsCustomerInformation;
 import com.acme.modres.exception.ExceptionHandler;
 import com.acme.modres.mbean.AppInfo;
 
@@ -46,8 +45,8 @@ import javax.servlet.annotation.WebServlet;
 public class WeatherServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
-    @Inject
-    private ModResortsCustomerInformation customerInfo;
+    //@Inject
+    //private ModResortsCustomerInformation customerInfo;
 
     // local OS environment variable key name.  The key value should provide an API key that will be used to
 	// get weather information from site: http://www.wunderground.com
